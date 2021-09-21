@@ -30,6 +30,17 @@
 // variables array
 // let array = ['uno', 2, 'tres'];
 
+// declararion regular
+// let frutas = new Array();
+// frutas[0] = "manzana";
+// frutas[1] = "pera";
+
+// declaracion condensada
+// let frutas = new Array("manzana", "pera");
+
+//declaracion literal
+// let frutas = ["manzana", "pera"];
+
 // variables de tipo objeto
 // let obj = {
 //     nombre: 'Jhonny',
