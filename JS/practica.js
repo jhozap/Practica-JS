@@ -3,18 +3,22 @@ let b = 2;
 
 if(a > b) {
     console.log("a es mayor que b");
-}
-
-if(b > a) {
+} else if(b > a) {
     console.log("b es mayor que a");
-}
-
-if(a == b) {
+} else {
     console.log("a es igual que b");
 }
 
+// if(b > a) {
+//     console.log("b es mayor que a");
+// }
 
-let mes = 1
+// if(a == b) {
+//     console.log("a es igual que b");
+// }
+
+
+let mes = 1;
 switch(mes) {
     case 1:
         console.log("Enero");
@@ -57,5 +61,4 @@ switch(mes) {
         break;
     default:
         console.log("opcion no soportada");
-
 }
