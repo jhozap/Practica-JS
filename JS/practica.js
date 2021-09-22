@@ -13,6 +13,16 @@ setTimeout(() => {
 },
 5000);
 
+function prueba() {
+
+}
+
+const prueba2 = () => {
+    console.log("Prueba 2")
+};
+
+console.log(prueba2());
+
 
 
 
